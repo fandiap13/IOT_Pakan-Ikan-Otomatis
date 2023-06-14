@@ -2,8 +2,19 @@
 
 Smart Aquarium
 
-## Skema Project
-
+## Rangkaian Project
+| Mappi32 | Komponen    |
+| :---:   | :---: |
+| GND |  GND Sensor Ultrasonik, GND Servo, GND Sensor DS18B20, GND Relay 5V, GND LCD 16x2 I2C, GND Buzzer |
+| 5V   | VCC Sensor Ultrasonik, VCC Servo, VCC Sensor DS18B20, VCC Relay 5V, VCC LCD 16x2 I2C |
+| IO23   | TRIG PIN Sensor Ultrasonik |
+| IO19   | ECHO PIN Sensor Ultrasonik |
+| IO18   | PWM PIN Servo |
+| IO14   | DQ PIN Sensor DS18B20 |
+| IO17   | IN PIN Relay 5V |
+| IO16   | BZ_1 PIN Buzzer |
+| IO22   | SCL PIN LCD 16x2 I2C |
+| IO23   | SDA PIN LCD 16x2 I2C |
 
 ## Deskripsi Project
 
@@ -24,4 +35,4 @@ Projek ini dibuat bertujuan untuk mengembangkan alat yang dapat memonitoring aku
 - **Mikrokontroller:** Mappi32
 - **Protokol IoT:** HTTP
 - **Database:** MySQl
-- **Komponen:** Sensor Ultrasonik HC-SR04, Sensor Suhu DS18B20, Servo, Buzzer, Relay 5V, LCD 16x2 I2C
+- **Komponen:** Sensor Ultrasonik HC-SR04, Sensor Suhu DS18B20, Servo, Buzzer, Relay 5V, LCD 16x2 I2C, Resistor 4.7 kΩ
