@@ -1,6 +1,6 @@
 ## Judul Project
 
-Smart Aquarium
+**Smart Aquarium**
 
 ## Rangkaian Project
 | Mappi32 | Komponen    |
