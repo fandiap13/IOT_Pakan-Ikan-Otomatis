@@ -2,6 +2,10 @@
 
 **Smart Aquarium**
 
+## Deskripsi Project
+
+Projek ini dibuat bertujuan untuk mengembangkan alat yang dapat memonitoring akuarium ikan secara otomatis dengan menggunakan IOT (Internet Of Things) untuk mengumpulkan data suhu dan jumlah pakan di akuarium. Sistem ini dapat melakukan monitoring jumlah pakan ikan menggunakan sensor ultrasonik HC-SR04, monitoring suhu akuarium, dan menjalankan pemberian pakan ikan secara otomatis. Diharapkan dengan adanya projek ini dapat memberikan kemudahan dalam monitoring dan pemberian pakan pada akuarium secara otomatis dan dapat dikendalikan dari jarak jauh.
+
 ## Rangkaian Project
 | Mappi32 | Komponen    |
 | :---:   | :---: |
@@ -16,10 +20,6 @@
 | IO22   | SCL PIN LCD 16x2 I2C |
 | IO21  | SDA PIN LCD 16x2 I2C |
 
-## Deskripsi Project
-
-Projek ini dibuat bertujuan untuk mengembangkan alat yang dapat memonitoring akuarium ikan secara otomatis dengan menggunakan IOT (Internet Of Things) untuk mengumpulkan data suhu dan jumlah pakan di akuarium. Sistem ini dapat melakukan monitoring jumlah pakan ikan menggunakan sensor ultrasonik HC-SR04, monitoring suhu akuarium, dan menjalankan pemberian pakan ikan secara otomatis. Diharapkan dengan adanya projek ini dapat memberikan kemudahan dalam monitoring dan pemberian pakan pada akuarium secara otomatis dan dapat dikendalikan dari jarak jauh.
-
 ## Fitur Utama
 
 1. **Monitoring Jumlah Pakan:** Sistem ini menggunakan sensor ultrasonik HC-SR04 untuk memantau jumlah pakan yang masih tersedia, dengan menghitung jarak kedalaman dari wadah pakan ikan.
@@ -32,6 +32,7 @@ Projek ini dibuat bertujuan untuk mengembangkan alat yang dapat memonitoring aku
 ## Teknologi Yang Digunakan
 
 - **Bahasa pemrograman:** Php, JavaScript, C++, SQL
+- **Framework Website:** CodeIgniter 4
 - **Mikrokontroller:** Mappi32
 - **Protokol IoT:** HTTP
 - **Database:** MySQl
