@@ -14,7 +14,7 @@ Smart Aquarium
 | IO17   | IN PIN Relay 5V |
 | IO16   | BZ_1 PIN Buzzer |
 | IO22   | SCL PIN LCD 16x2 I2C |
-| IO23   | SDA PIN LCD 16x2 I2C |
+| IO21  | SDA PIN LCD 16x2 I2C |
 
 ## Deskripsi Project
 
